@@ -1,4 +1,4 @@
-# Multimodal-Fusion-using-CL
+# Continual learning for multimodal data fusion of a soft gripper
 Fusing the information from two different modalities of data for real time object classfication using non-exemplar continual learning algorithm "".
 
 ## Install the dependencies in a virtual environment
@@ -52,4 +52,12 @@ Fusing the information from two different modalities of data for real time objec
   
 ## To cite the paper
   ```bash
+@article{kushawaha2024continual,
+  title={Continual learning for multimodal data fusion of a soft gripper},
+  author={Kushawaha, Nilay and Falotico, Egidio},
+  journal={Advanced Robotics Research},
+  pages={202500126},
+  year={2024},
+  publisher={Wiley Online Library}
+}
   ```
