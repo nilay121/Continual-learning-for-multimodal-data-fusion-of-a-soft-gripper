@@ -1,6 +1,8 @@
 # Continual learning for multimodal data fusion of a soft gripper
 Continual learning (CL) refers to the ability of an algorithm to continuously and incrementally acquire new knowledge from its environment while preserving previously learned information. Traditional models trained on a single data modality often fail to generalize when exposed to different modalities. A simple strategy to address this limitation is to fuze multiple modalities by concatenating their features and training the model on the combined representation. However, this generally requires retraining the model from scratch whenever a new domain is introduced. In this paper, we propose a CL algorithm that incrementally learns from multiple data modalities by combining class-incremental and domain-incremental learning settings. We validate our algorithm on a custom multimodal dataset composed of tactile signals collected from a soft sensorized pneumatic gripper and visual data consisting of nonstationary object images captured from video sequences. Additionally, we evaluate our method on a subset of the publicly available VGGSound dataset, which integrates both visual and audio signals corresponding to various real-world activities. To further demonstrate the robustness and real-time applicability of our approach, we conduct an object classification experiment using a soft sensorized gripper and an external camera setup, all synchronized through the robot operating system framework.
 
+<img src="https://github.com/nilay121/SensorDriftCompensationUsingCL/blob/main/architecture.png" height="300px" width="1000px">
+
 ## Install the dependencies in a virtual environment
 
 - Create a virtual environment (Python version 3.8.10) 
